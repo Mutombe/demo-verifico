@@ -435,6 +435,106 @@ const siteData = {
       { name: "Chiedza Mapondera", image: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=100&h=100&fit=crop&crop=face", role: "School Administrator", text: "Wonderful experience. The team was courteous, professional, and efficient.", rating: 5, date: "2024-12-10", projectType: "Institutional" },
     ],
   },
+  careers: {
+    heroTitle: [
+      { text: "Join " },
+      { text: "Verifico.", highlight: true },
+    ],
+    heroSubtitle:
+      "We are building the verification infrastructure that Zimbabwe's formal sector depends on. If you care about trust, technology, and doing things right, we want you.",
+    heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80",
+    cultureTitle: "Why Work With Us?",
+    cultureItems: [
+      {
+        iconName: "Rocket",
+        title: "Build Real Infrastructure",
+        desc: "You will not be tweaking ad copy. You will be building the verification systems that banks, mines, and government agencies depend on daily.",
+      },
+      {
+        iconName: "ShieldCheck",
+        title: "Mission-Driven Work",
+        desc: "Every check we complete makes Zimbabwe's business environment more trustworthy. Your work has direct, measurable impact.",
+      },
+      {
+        iconName: "Users",
+        title: "Small Team, Big Impact",
+        desc: "30-person team moving fast. No bureaucracy. Your ideas ship in weeks, not quarters.",
+      },
+    ],
+    cultureImage: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80",
+    cultureImageAlt: "Verifico team and technology workspace",
+    cultureTagline: "Where Trust Meets Technology.",
+    cultureTaglineDesc:
+      "Our team combines deep compliance expertise with modern engineering. We are not a slow-moving institution. We are a tech company solving trust.",
+    benefits: [
+      { iconName: "CurrencyDollar", title: "Competitive Pay", desc: "Market-rate salaries with performance bonuses tied to platform growth." },
+      { iconName: "GraduationCap", title: "Learning Budget", desc: "Annual training allowance for certifications, courses, and conferences." },
+      { iconName: "Heart", title: "Health Coverage", desc: "Comprehensive medical aid for you and your family." },
+      { iconName: "Rocket", title: "Career Growth", desc: "Fast-growing company means rapid advancement. Our youngest team lead is 26." },
+      { iconName: "ShieldCheck", title: "Flexible Work", desc: "Hybrid work model with remote days. Results matter more than desk time." },
+      { iconName: "Users", title: "Team Culture", desc: "Monthly team events, knowledge sharing sessions, and genuine collaboration." },
+    ],
+    positions: [
+      {
+        id: 1,
+        title: "Verification Analyst",
+        department: "Operations",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Process identity verifications, criminal record checks, and employment validations. Communicate with government databases, employers, and institutions to deliver accurate results within SLA timelines.",
+        requirements: [
+          "Degree in Law, Criminology, HR, or related field",
+          "Strong attention to detail and analytical skills",
+          "Excellent written and verbal communication",
+          "Ability to handle sensitive information with discretion",
+          "Experience with database research preferred",
+        ],
+      },
+      {
+        id: 2,
+        title: "Software Engineer",
+        department: "Engineering",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Build and maintain the Verifico platform: APIs, database integrations, client dashboards, and automated verification workflows. Full-stack role with emphasis on backend systems.",
+        requirements: [
+          "3+ years software development experience",
+          "Proficiency in Python, Node.js, or similar backend languages",
+          "Database design and SQL expertise",
+          "API design and integration experience",
+          "Understanding of data security and encryption",
+        ],
+      },
+      {
+        id: 3,
+        title: "Business Development Manager",
+        department: "Sales",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Grow Verifico's client base across banking, mining, legal, and corporate sectors. Build relationships with compliance officers and HR directors. Manage the full sales cycle from lead to contract.",
+        requirements: [
+          "3+ years in B2B sales, preferably in financial services or compliance",
+          "Strong network in Zimbabwe's corporate sector",
+          "Excellent presentation and negotiation skills",
+          "Understanding of KYC, AML, and compliance requirements",
+          "Driver's licence and willingness to travel",
+        ],
+      },
+    ],
+    generalApplicationTitle: "Passionate About Trust & Technology?",
+    generalApplicationSubtitle:
+      "We are always looking for sharp, detail-oriented people who care about building reliable systems. Send us your CV.",
+    generalApplicationCta: "Send Your CV",
+  },
+
+  footer: {
+    description:
+      "Zimbabwe's leading identity verification and background screening platform. KYC compliance, criminal record checks, and due diligence services.",
+    copyright: "Verifico (Pvt) Ltd",
+  },
 };
 
 export default siteData;
